@@ -9,7 +9,7 @@ const START_MESSAGE = 'HugoPhoenixNetwork started!';
 const OPENTRADE = "HugoPhoenix";
 
 exports.ACCOUNTS_SERVER = "127.0.0.1";
-exports.ACCOUNTS_PORT = 80;
+exports.ACCOUNTS_PORT = 40745;
 
 exports.ALLOW_EMAIL_CHANGING = true;
 
