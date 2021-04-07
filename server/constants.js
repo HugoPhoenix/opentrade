@@ -1,15 +1,15 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
-const NOREPLY_EMAIL = 'no-reply@email.com';
-const DOMAIN = 'localhost';
+const SUPPORT_EMAIL = 'support@ehugophoenix.com';
+const NOREPLY_EMAIL = 'no-reply@hugophoenix.com';
+const DOMAIN = 'exchange.hugophoenix.com';
 
-const MAILER_NAME = 'OpenTrade Mailer';
-const START_MESSAGE = 'OpenTrade started!';
-const OPENTRADE = "OpenTrade";
+const MAILER_NAME = 'HugoPhoenixNetwork Mailer';
+const START_MESSAGE = 'HugoPhoenixNetwork started!';
+const OPENTRADE = "HugoPhoenix";
 
 exports.ACCOUNTS_SERVER = "127.0.0.1";
-exports.ACCOUNTS_PORT = 40745;
+exports.ACCOUNTS_PORT = 80;
 
 exports.ALLOW_EMAIL_CHANGING = true;
 
@@ -18,21 +18,21 @@ exports.DEBUG_LOG = true;
 exports.share = {
    tradeEnabled: true,
    withdrawEnabled: true,
-   recaptchaEnabled: false,
+   recaptchaEnabled: true,
    emailVerificationEnabled: 'enabled', //'disabled' // !!! WARNING !!! DANGER !!! DO NOT CHANGE IT IN PRODUCTION !!! FOR TESTS ONLY !!!
    pinVerificationEnabled: 'enabled', //'disabled'
    
    TRADE_COMISSION: 0.001, //change trade comission percent
-   DUST_VOLUME: 0.000001, //change minimal order volume
+   DUST_VOLUME: 0.00000005, //change minimal order volume
    
-   TRADE_MAIN_COIN: "Marycoin",
-   TRADE_MAIN_COIN_TICKER: "MC",
-   TRADE_DEFAULT_PAIR: "Litecoin"
+   TRADE_MAIN_COIN: "Polar",
+   TRADE_MAIN_COIN_TICKER: "PA",
+   TRADE_DEFAULT_PAIR: "Bitcoin"
 };
 
 exports.SESSION_TIME = 3600*1000; //one hour
 
-exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1";
+exports.recaptcha_pub_key = "xxxxx";
 const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
