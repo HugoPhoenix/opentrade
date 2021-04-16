@@ -32,7 +32,7 @@ exports.share = {
 
 exports.SESSION_TIME = 3600*1000; //one hour
 
-exports.recaptcha_pub_key = "xxxxx";
+exports.recaptcha_pub_key = "6LdDpJ4aAAAAAOtWPgYEd_v1-4lN8OwYNTgdgODW";
 const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
